@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 1140px;
+  margin: auto;
+}
+.page-title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.list-title > h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.list-item {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.list-item:hover {
+  background-color: grey;
+}
+
+.list-item:hover > .link-to-page {
+  color: white;
+}
+
+.link-to-page {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 15px;
+  color: black;
+}
